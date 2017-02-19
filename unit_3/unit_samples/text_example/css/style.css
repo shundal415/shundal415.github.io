@@ -1,0 +1,25 @@
+body {
+	background-color: #fff59d;
+}
+
+h1 {
+	font-family: arial, sans-serif;
+	color: #c0392b;
+}
+
+h3 {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	color: #c0392b;
+	text-decoration: underline;
+}
+
+p {
+	font-family: "Courier New", Monospace;
+	color: #c0392b;
+}
+
+a{
+	text-decoration: none
+}
