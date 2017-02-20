@@ -15,6 +15,13 @@ header {
 	padding: 20px;
 }
 
+.hero {
+	background-image: url('../images/hero_background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 590px;  	
+}
+
 a {
 	text-decoration: none;
 	color: #5B382B;
@@ -24,16 +31,18 @@ a {
 h1 {
 	font-size: 48px;
 	font-weight: normal;
-}
-
-h4 {
-	font-size: 16px;
-	font-weight: bold;
+	padding: 30px;
 }
 
 h3 {
 	font-size: 24px;
 	font-weight: bold;
+	text-align: center;
+}
+
+h4 {
+	font-size: 16px;
+	line-height: 1.8;
 }	
 
 footer a {
@@ -42,6 +51,15 @@ footer a {
 	font-weight: normal;
 	padding: 0px;
 }
+p {
+	padding: 30px;
+}
+
 .box {
 	float: left;
+}
+
+.footerbox {
+	float: left;
+	padding: 50px;
 }
