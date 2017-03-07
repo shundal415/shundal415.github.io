@@ -3,66 +3,109 @@
 	margin: 0; 
 }
 
+.wrapper {
+	background-color: #bdc3c7;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 body {
 	font-family: "Open Sans", Helvetica;
-	font-size: 20px;
-	color: #333333;
-	line-height: 1.3;
 }
 
 p {
-	padding: 30px;
-}
-
-a {
-	text-decoration: none;
-	color: #5B382B;
-	padding: 30px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
 }
 
 h1 {
-	font-size: 48px;
-	font-weight: normal;
-	padding: 30px;
-}
-
-h3 {
 	font-size: 24px;
-	font-weight: bold;
-	text-align: center;
-}
-
-h4 {
-	font-size: 16px;
-	line-height: 1.8;
-}	
-
-footer a {
-	font-size: 16px;
-	line-height: 1.8;
 	font-weight: normal;
-	padding: 0px;
+	padding: 10px;
+}		
+
+footer {
+	background-color: #FFED74;
+	padding: 5px;
 }
 
 header {
-	background-color: #ecf0f1;
+	background-color: #FFED74;
+	padding: 5px;
+}
+
+article {
+	background-color: #2ecc71;
+	padding: 5px;
+}
+
+main {
+	background-color: #FFED74;
+	padding: 5px;
+}
+
+section {
+	background-color: #FFE2B8;
+	padding: 10px;
+}
+
+nav {
+	background-color: #E8C66A;
+	padding: 10px;
+}
+.subhero {
+	background-color: #E89C6C;
+	padding: 10px;
+}
+.description1 {
+	background-color: #E8C66A;
+	padding: 10px;
+}
+
+/*.description2 {
+	background-color: #FFE2B8;
+	padding: 10px;
+}
+
+.description3 {
+	background-color: #E8C66A;
+	padding: 10px;
+}*/
+
+.footernav {
+	background-color: #FF957E;
+	padding: 10px;
+}
+
+#two-column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
 	padding: 20px;
 }
 
-.hero {
-	background-image: url('../images/hero_background.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 590px;  	
-}
-
-.box {
+#left {
+	background-color: #CCCCCC;
+	border: 1px black solid;
+	padding: 20px;
 	float: left;
-}
-.footerbox {
-	float: left;
-	padding: 50px;
+	width: 40%;
 }
 
+#right {
+	background-color: #CCCCCC;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 40%;
+}
 
-
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
