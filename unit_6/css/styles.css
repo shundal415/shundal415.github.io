@@ -90,7 +90,7 @@ nav {
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
-	width: 40%;
+	width: 46.8%;
 }
 
 #right {
@@ -98,13 +98,19 @@ nav {
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 40%;
+	width: 46.79%;
+}
+
+#bottom {
+	background-color: #CCCCCC;
+	border: 1px black solid;
+	padding: 20px;
+	clear: both;
 }
 
 .clearfix:after {
 	visibility: hidden;
 	display: block;
-	font-size: 0;
 	content: "";
 	clear: both;
 	height: 0;
