@@ -21,11 +21,13 @@ body {
 
 .footer-nav {
 	width:100%;
+	text-align: center;
 }
 
 .social {
 	width: 100%; 
 	clear:both;
+	padding-top: 20px;
 }
 
 #hero {
@@ -110,17 +112,25 @@ img {
 	margin: auto;
 	float:left;
 }
+.product_feature p {
+	font-size: .85em;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
 
 h1 {
 	font-size: 3.5em;
 	font-weight: 300;
-	line-height: 1em;
+	line-height: 1.25em;
 	padding: 30px;
 	margin-top: 30px;
 }
 
 h2 {
 	font-size: 2em;
+	line-height: 1.25em;
 	font-weight: 300;
 	padding: 30px;
 }
@@ -132,16 +142,24 @@ h3 {
 }
 
 h4 {
-	font-size: 1.15em;
+	font-size: 1em;
 	font-weight: bold;
+	padding-bottom: 10px;
+	text-align: center;
 }
 
 p {
-	font-size: 1em;
+	font-size: .85em;
 	text-align: center;
 	margin-bottom: 20px;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0
 }
 
 hr {
@@ -150,6 +168,19 @@ hr {
 	background-color: #d35400;
 	width: 5em;
 	margin: .5em auto;
+}
+
+.columns hr {
+	border: none;
+	height: 2px;
+	background-color: #d35400;
+	width: 3em;
+	margin: .125em auto;
+}
+
+section p {
+	padding-left: 50px;
+	padding-right: 50px; 
 }
 
 .clearfix:after{
@@ -167,26 +198,22 @@ hr {
 }
 
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:1366px) {
 	.product {
 		width: 50%;
-		height: 811px;
 		margin: auto;
 		float:left;
 		background-color: red;
 	}
+	p {
+	font-size: 1em;
+	text-align: center;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
 }
 
-@media screen and (max-width:768px) {
-	.product {
-		width: 100%;
-		height: auto;
-	}
-	.columns {
-		width:100%;
-		float:none;
-	}
-}
 
 
 
