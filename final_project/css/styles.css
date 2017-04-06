@@ -88,7 +88,7 @@ header label {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height:625px;
+	height:700px;
 	padding:20px 0;
 	margin-bottom: 20px; 
 }
@@ -277,6 +277,11 @@ ul {
 	display: block;
 	}
 
+	img {
+	width: 100%;
+
+	}
+
 	.subhead {
   	width: 100%;
 	}
@@ -289,19 +294,23 @@ ul {
 	#hero {
 		background: url(../images/hero_background.jpg) no-repeat center center scroll;
 		background-size: cover;
-		height:600px;
-	}
+		}						
 
 	.subhead img {
-		height:400px;
+		height:500px;
 	}
 
 	h1 {
-		font-size: 2em;
+		font-size: 3em;
+		width: 400px;
 	}
 
 	h2 {
-		font-size: 1em;
+		font-size: 1.5em;
+	}
+
+	h4 {
+		padding-top: 20px;
 	}
 
 	nav a {
@@ -322,12 +331,22 @@ ul {
 	}
 
 	.columns {
-	float: left;
-	width: 100%;
+		float: left;
+		width: 100%;
 	}
+
 	.columns li {
-	display: inline;
-	padding: 10px;
+		display: inline;
+		padding: 10px;
+	}
+
+	p {
+	padding-left: 80px;
+	padding-right: 80px;
+	}
+
+	#footerbanner {
+	height:525px;
 	}
 }	
 
